@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=0">
+    <script src='../js/dicts.js'></script>
+    <script src='../js/chinese.js'></script>
+    <title>Test</title>
+</head>
+
+<body>
+    <div>output format: <span id='output-format' style='color:#299'>original</span></div>
+    <button id='btn-s'>simplified</button>
+    <button id='btn-t'>tranditional</button>
+    <button id='btn-o'>original</button>
+    <br>
+    <form id='form-func'>
+        testing function
+        <br>
+        <input type='radio' name="func" value="s/t conversion" id='func-1' checked>s/t conversion
+        <input type='radio' name="func" value="highlight keywords" id='func-2'>highlight keywords
+    </form>
+    <div>
+        total number of texts: 
+        <span id='total-num-txt' style='color:#299'></span>
+    </div>
+    <div>
+        total time: 
+        <span id='total-time' style='color:#299'></span>
+    </div>
+    <div id='results'>
+    </div>
+</body>
+<script src="test.js"></script>
+
+</html>
